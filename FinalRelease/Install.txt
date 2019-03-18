@@ -1,0 +1,56 @@
+Installation instructions: Chat/Client applications
+Team04 Teammates: Ameya Pandit Matthew Dunn, Richard Duong, Xingjian Qu, Yuming Wang, Yunhe Shao
+Date: 3/4/2019
+
+
+
+Installation instructions for Team04 Deep Core Dump Chess Software:
+
+To untar the files type gtar xvzf (filename).tar.gz
+
+Binary package:
+
+This package consists of the binary files in directory bin and the user manual in directory doc. These are the files that were unzipped from package Chess_Alpha.tar.gz.
+
+RUN SERVER: To run the server type ./Server (portnumber)
+SHUTDOWN SERVER: To shutdown the server type exit the server will then save its data and quit. 
+
+RUN CLIENT: To run the client type ./Client (serveraddress) (portnumber)
+SHUTDOWN CLIENT: To shutdown the client type -99.
+
+
+To remove the package go to the directory where it is located and type the following command for each folder and/or file:
+
+rm -r (foldername or filename)
+
+For additional instructions please see the user manual.
+
+Source code package:
+
+This package consists of the source files in directory src, documentation in directory dir and a director for the binary files called bin. These are the files that 
+were unzipped from the Chat_Alpha_src_.tar.gz package.
+
+1:Make the program executables
+    Type "make" in your terminal window to generate the executables for server and client. Further instructions regarding overall gameplay, installation, etc.  can be found in the User Manual.
+
+2:Remove the executables and textfiles
+    Type"make clean" in your terminal windoe to delete the program and all object and log files.
+
+3:Make tar
+    Type "make tar" in your terminal window to make the Chat_Alpha_src.tar.gz file that contains the directories src,bin,doc and all documentation and source code files.
+
+CUSTOMER PACKAGE:
+
+This package consists of the executable Chat in the folder bin and the user manual in directory doc, The Readme, copyright and installation instruciton file.
+These are the files that were unzipped from package Chess_Alpha.tar.gz.
+
+RUN CLIENT: To run the client type ./Chat (serveraddress) (portnumber)
+SHUTDOWN CLIENT: To shutdown the client type -99.
+
+There are 2 users hard coded for client at the current time.
+
+Username: nima13 Password password
+Username: james10 Password password
+
+EOF
+
